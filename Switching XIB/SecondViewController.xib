@@ -30,7 +30,10 @@
                         <constraint firstAttribute="height" constant="94" id="aDj-Hn-nae"/>
                     </constraints>
                     <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="24"/>
-                    <state key="normal" title="Button"/>
+                    <state key="normal" title="Click for Main View"/>
+                    <connections>
+                        <action selector="mainViewButton:" destination="-1" eventType="touchUpInside" id="E2J-OS-Iet"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="0.65123117870000002" green="0.97680455450000003" blue="0.43301567889999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -43,7 +46,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ji4-XI-AjZ" secondAttribute="trailing" constant="20" id="hZo-uo-6bF"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="131.8840579710145" y="153.34821428571428"/>
+            <point key="canvasLocation" x="133" y="155"/>
         </view>
     </objects>
 </document>

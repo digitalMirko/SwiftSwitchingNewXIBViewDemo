@@ -15,6 +15,16 @@ class ViewController: UIViewController {
         
     }
 
-
+    @IBAction func xibViewButton(_ sender: Any) {
+        
+        // allocating XIB view
+        let newView = SecondViewController(nibName: "SecondViewController", bundle: nil)
+        // transition style
+        newView.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+        // present to user
+        self.present(newView, animated: true, completion: nil)
+        
+    }
+    
 }
 
