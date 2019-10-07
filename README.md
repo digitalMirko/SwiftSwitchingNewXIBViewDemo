@@ -1,7 +1,7 @@
 # SwiftSwitchingNewXIBViewDemo
 Swift - Swift Switching to a New XIB View Demo - Demo 19 of 30
 
-App created in Xcode 11.0 using Swift 5.0, iOS Deployment Target 13.0 and tested on a iPhone Pro Max Emulator
+App created in Xcode 11.0 using Swift 5.0, iOS Deployment Target 13.0 and tested on a iPhone 11 Pro Max Emulator
 
 In this demo app we demonstrate how to code swift Switching Views to the old XIB view.
 
